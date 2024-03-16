@@ -1,0 +1,26 @@
+body { 
+    background: url(images/images\ 5.jpeg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size : cover;
+    min-height: 100%;
+    width: 100%;
+}
+.searchform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29%;
+    gap: 3%
+}
+.searchelem,.searchnum,.searchbutton {
+    min-width: 18%;
+    min-height: 50px;
+    gap: 3%
+}
+.elemlist, .errortext {
+    color :red;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+}

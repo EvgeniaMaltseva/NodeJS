@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css" />
+	<link rel="stylesheet" href="assets/normalize.css" />
+</head>
+<body>
+    <header class="header"></header>
+    <main class="main">
+        <form search="">
+            <div class="searchform">
+                <label for="searchelem"></label>
+                <select class="searchelem" id="searchelem" required>
+                    <option value=»» selected>Выберите вариант</option>
+                    <option value="films">Фильм</option>
+                    <option value="people">Персонаж</option>
+                    <option value="planets">Планета</option>
+                    <option value="species">Вид</option>
+                    <option value="starships">Корабль</option>
+                    <option value="vehicles">Транспорт</option>
+                </select>
+                <label for="searchnum"></label>
+                <select class="searchnum" id="searchnum"  required>
+                    <option value=»» selected>Выберите номер</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>
+                <button class="searchbutton" type="button">ПОИСК</button>
+            </div>
+        </form>    
+        <div class="elemlist">
+        </div>
+        <div class="error">
+            <p class="errortext" id="errortext"></p>
+        </div>
+    </main>
+    
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
